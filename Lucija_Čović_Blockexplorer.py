@@ -15,6 +15,8 @@ Blockexplorer
     ￮ adresa
 """
 
+#Note to self: terribly written code, next time use different GUI
+
 from bitcoinrpc.authproxy import AuthServiceProxy
 import pprint
 from tkinter import *
@@ -24,7 +26,7 @@ import tkinter.scrolledtext as st
 from datetime import datetime
 import requests
 
-#Server access data
+#Server access data (no data - security reasons)
 rpc_user=""
 rpc_password=""
 host=""
